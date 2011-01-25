@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Home | Studio Legale Bicecci & Partners</title>
+		<title>Lo studio | Studio Legale Bicecci & Partners</title>
 		<meta name="description" content="Lo Studio Legale Bicecci & Partners fonde la ventennale esperienza professionale e le specifiche competenze di ciascun partner in diritto bancario, finanziario e societario, in ambito giudiziale e stragiudiziale" />
 		<meta name="keywords" content="studio legale, bicecci, blex, diritto bancario, diritto finanziario, diritto societario" />
 		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
@@ -21,7 +21,7 @@
 						<div class="header">
 							<nav>
 								<ul class="nav">
-									<li class="studio first"><a href="studio.php"><span>Studio</span></a></li>
+									<li class="studio first current"><a href="studio.php"><span>Studio</span></a></li>
 									<li class="expertise"><a href="expertise.php"><span>Expertise</span></a></li>
 									<li class="network"><a href="network.php"><span>Network</span></a></li>
 									<li class="info"><a href="info.php"><span>Info</span></a></li>
@@ -55,21 +55,29 @@
 								</div>
 							</aside>
 							<div class="content">
-								<h2 class="first">Bicecci & Partners</h2>
+								<h2 class="first">Lo Studio</h2>
 								<p>
-									Il nostro Studio è ispirato ai più profondi valori professionali e personali: indipendenza, orientamento ai risultati, dinamicità, flessibilità.
+									Lo Studio Legale Bicecci & Partners fonde la ventennale esperienza professionale e le specifiche competenze di ciascun partner in diritto bancario, finanziario e societario, in ambito giudiziale e stragiudiziale.
 								</p>
 								<p>
-									La nostra capacità di cogliere ogni più piccolo dettaglio senza mai perdere la visione d’insieme, la nostra attitudine a saperci adattare alle esigenze del cliente e, non ultima, la nostra propensione ad instaurare rapporti fiduciari durevoli nel tempo, fanno del nostro Studio una vera e propria boutique dove la clientela trova la risposta giusta e calibrata alle proprie esigenze.
+									Elevato grado di specializzazione, capacità di gestire problematiche complesse e forte motivazione sono i punti di forza che consentono ai professionisti dello Studio Legale Bicecci & Partners di affiancare i loro clienti come un partner concreto, tempestivo ed efficiente.
 								</p>
-								<h2>Visione e missione</h2>
+								<h2>I professionisti</h2>
 								<p>
-									Un amico serio e riservato al fianco del cliente. Lo studio legale Bicecci&Partners si propone come una realtà di riconosciuta esperienza, rinomata per competenza, serietà e disponibilità dei professionisti.
+									I professionisti dello Studio Legale Bicecci & Partners mettono a disposizione dei propri clienti capacità personali, competenze specifiche consolidate nel corso di una ventennale esperienza e grande concretezza.
 								</p>
 								<p>
-									Grazie alla struttura moderna, dinamica e veloce ed alle sinergie professionali e personali, i professionisti dello Studio Legale Bicecci&Partners sono in grado di accogliere e curare le molteplici richieste di banche, società finanziarie, SIM, SGR, società quotate e non e piccole e medie imprese
+									Con disponibilità ed entusiasmo risolvono le problematiche dei propri clienti garantendo un approccio rapido, flessibile ed orientato ai risultati.
 								</p>
-								<a href="contacts.php" class="l-contactus-big">Contattaci ora</a>
+								<p>
+									Il loro spirito indipendente, serio, scevro da metodiche ed impostazioni tradizionalistiche consente ai professionisti dello Studio Legale Bicecci & Partners di affiancare quotidianamente i propri clienti divenendo l’interlocutore indispensabile di uffici legali interni e di responsabili di compliance e di aree operative.
+								</p>
+								<ul class="l-collaborators-list">
+									<li><a href="collaborators/bicecci.php">Avv. Stefania Bicecci &raquo;</a></li>
+									<li><a href="collaborators/gancitano.php">Avv. Luca Gancitano &raquo;</a></li>
+									<li><a href="collaborators/scatena.php">Avv. Dario Scatena &raquo;</a></li>
+									<li><a href="collaborators/bienati.php">Avv. Giuseppe Bienati &raquo;</a></li>
+								</ul>
 							</div>
 							<div class="clear"></div>
 						</div>
@@ -79,8 +87,8 @@
 					<div class="footer">
 						<nav>
 							<ul class="nav">
-								<li class="home first current"><a href="home.php"><span>HOME</span></a></li>
-								<li class="studio"><a href="studio.php"><span>STUDIO</span></a></li>
+								<li class="home first"><a href="home.php"><span>HOME</span></a></li>
+								<li class="studio current"><a href="studio.php"><span>STUDIO</span></a></li>
 								<li class="expertise"><a href="expertise.php"><span>EXPERTISE</span></a></li>
 								<li class="network"><a href="network.php"><span>NETWORK</span></a></li>
 								<li class="info"><a href="info.php"><span>INFO</span></a></li>

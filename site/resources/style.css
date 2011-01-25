@@ -34,13 +34,24 @@ h2 { background:transparent url(images/line_titlebotton_contenuticentrali.jpg) r
 h2.first { margin-top:0; }
 p { margin:10px 0; }
 
+.content h4 { margin:25px 0 0 0; color:#065f33; font-size:13px; font-weight:bold; }
+.content ul { margin:0 0 10px 0; }
+.content ul li { list-style-type:disc; display:list-item; margin:0 0 0 15px; }
+
 .aside h3 { position:relative; color:#6a6359; font-size:14px; font-weight:bold; margin:0 0 5px 0; background:transparent url(images/line_titlebotton_colonnasx.jpg) repeat-x 0 bottom; height:30px; }
-.aside h3 a { display:block; width:20px; height:20px; position:absolute; top:0; right:0; border:1px solid red; }
+.aside h3 a { display:block; width:22px; height:22px; position:absolute; top:-3px; right:0; background:transparent url(images/it/bottoni.png) no-repeat 0 0; }
+.aside h3 a:hover { background-position:0 -24px; }
 .aside h4 { color:#6a6359; font-size:12px; font-weight:bold; }
 .aside .article { background:transparent url(images/line_titlebotton_colonnasx.jpg) repeat-x 0 bottom; padding:10px 0 20px 0; color:#9f9890; font-size:11px; }
 .aside .article.last { background:none; }
 .aside .article a { color:#6a6359; text-decoration:none; }
 .aside .article a:hover { text-decoration:underline; }
+
+.aside .nav { background:url(images/line_titlebotton_colonnasx.jpg) repeat-x 0 bottom; padding:0 0 10px 0; }
+.aside .nav li { background:url(images/line_titlebotton_colonnasx.jpg) repeat-x 0 top; }
+.aside .nav a { text-decoration:none; color:#b5aea6; display:block; padding:20px 0 20px 10px; background:transparent url(images/link.png) no-repeat 0 center; }
+.aside .nav li a:hover { color:#6b6259; padding:20px 0 20px 20px; background:transparent url(images/currentlink.png) no-repeat 0 center; }
+.aside .nav li.current a { color:#6b6259; font-weight:bold; padding:20px 0 20px 20px; background:transparent url(images/currentlink.png) no-repeat 0 center; }
 
 /* footer */
 .footer { text-align:center; font-size:11px; margin:20px 0 0 0; color:#7d7d7b; }
@@ -48,3 +59,12 @@ p { margin:10px 0; }
 .footer .nav a { color:#7d7d7b; text-decoration:none; }
 .footer .nav li.last { border:0; }
 .footer .company-details { line-height:15px; margin:20px 0; }
+
+
+
+/* mix */
+a.l-contactus-big { height:60px; width:348px; overflow:hidden; margin:50px 0 0 0; text-indent:-10000px; display:block; background:transparent url(images/it/bottoni.png) no-repeat 0 -124px; }
+a.l-contactus-small { height:60px; width:210px; overflow:hidden; margin:30px 0 0 -5px; text-indent:-10000px; display:block; background:transparent url(images/it/bottoni.png) no-repeat -198px 0; }
+a:hover.l-contactus-small { background-position:-198px -62px; }
+ul.l-collaborators-list { margin:30px 0 0 0; }
+ul.l-collaborators-list a { color:#065f33; font-weight:bold; line-height:25px; }
