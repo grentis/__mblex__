@@ -34,7 +34,8 @@ h2 { background:transparent url(images/line_titlebotton_contenuticentrali.jpg) r
 h2.first { margin-top:0; }
 p { margin:10px 0; }
 
-.aside h3 { color:#6a6359; font-size:14px; font-weight:bold; margin:0 0 5px 0; background:transparent url(images/line_titlebotton_colonnasx.jpg) repeat-x 0 bottom; height:30px; }
+.aside h3 { position:relative; color:#6a6359; font-size:14px; font-weight:bold; margin:0 0 5px 0; background:transparent url(images/line_titlebotton_colonnasx.jpg) repeat-x 0 bottom; height:30px; }
+.aside h3 a { display:block; width:20px; height:20px; position:absolute; top:0; right:0; border:1px solid red; }
 .aside h4 { color:#6a6359; font-size:12px; font-weight:bold; }
 .aside .article { background:transparent url(images/line_titlebotton_colonnasx.jpg) repeat-x 0 bottom; padding:10px 0 20px 0; color:#9f9890; font-size:11px; }
 .aside .article.last { background:none; }
