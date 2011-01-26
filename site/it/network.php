@@ -8,6 +8,7 @@
 		<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.3.0/build/cssreset/reset-min.css">
 		<link rel="stylesheet" href="../resources/style.css" type="text/css">
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+		<script type="text/javascript" src="../resources/site.js"></script>
 	</head>
 	<!--[if IE]>
 		<body class="it ie">
@@ -112,8 +113,3 @@
 			</div>
 		</body>
 </html>
-
-
-<!--
-usare <article> <time> per le news
--->

@@ -30,7 +30,7 @@ html { background-color:#fefaef; font-family:Helvetica; font-size:12px; color:#6
 .section .clear { background:transparent url(images/bg_colonna_sx_bottom.jpg) no-repeat 0 bottom; height:5px; }
 .aside { position:absolute; left:0; top:0; width:200px; padding:30px 30px;  }
 
-h2 { background:transparent url(images/line_titlebotton_contenuticentrali.jpg) repeat-x 0 bottom; color:#065f33; height:30px; font-size:16px; font-weight:bold; margin:30px 0 5px 0; }
+h2 { background:transparent url(images/line_titlebotton_contenuticentrali.jpg) repeat-x 0 bottom; color:#065f33; padding:0 0 15px 0; font-size:16px; font-weight:bold; margin:30px 0 5px 0; }
 h2.first { margin-top:0; }
 p { margin:10px 0; }
 
@@ -78,3 +78,5 @@ ul.l-collaborators-list a { color:#065f33; font-weight:bold; line-height:25px; }
 a.mail, a.print, a.cv { text-decoration:none; margin:4px 0; display:block; background:url(images/it/bottoni.png) no-repeat -351px -122px; padding:1px 0 2px 25px; line-height:16px; height:12px; }
 a.print { background-position:-351px -156px; padding:4px 0 2px 25px; }
 a.cv { background-position:-351px -137px; padding:4px 0 4px 25px; }
+
+p.add-margin { margin-bottom:300px; }

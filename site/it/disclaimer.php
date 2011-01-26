@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Lo studio | Studio Legale Bicecci & Partners</title>
+		<title>Disclaimer | Studio Legale Bicecci & Partners</title>
 		<meta name="description" content="Lo Studio Legale Bicecci & Partners fonde la ventennale esperienza professionale e le specifiche competenze di ciascun partner in diritto bancario, finanziario e societario, in ambito giudiziale e stragiudiziale" />
 		<meta name="keywords" content="studio legale, bicecci, blex, diritto bancario, diritto finanziario, diritto societario" />
 		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
@@ -22,7 +22,7 @@
 						<div class="header">
 							<nav>
 								<ul class="nav">
-									<li class="studio first current"><a href="studio.php"><span>Studio</span></a></li>
+									<li class="studio first"><a href="studio.php"><span>Studio</span></a></li>
 									<li class="expertise"><a href="expertise.php"><span>Expertise</span></a></li>
 									<li class="network"><a href="network.php"><span>Network</span></a></li>
 									<li class="info"><a href="info.php"><span>Info</span></a></li>
@@ -36,44 +36,12 @@
 					</header>
 					<section>
 						<div class="section">
-							<aside>
-								<div class="aside">
-									<div class="professionist">
-										<h3 class="first last">I professionisti</h3>
-										<ul>
-											<li><a href="collaborators/bicecci.php">Avv. Stefania Bicecci &raquo;</a></li>
-											<li><a href="collaborators/gancitano.php">Avv. Luca Gancitano &raquo;</a></li>
-											<li><a href="collaborators/scatena.php">Avv. Dario Scatena &raquo;</a></li>
-											<li><a href="collaborators/bienati.php">Avv. Giuseppe Bienati &raquo;</a></li>
-										</ul>
-									</div>
-									<a class="l-contactus-small" href="contacts.php">Contattaci ora</a>
-								</div>
-							</aside>
+							<aside></aside>
 							<div class="content">
-								<h2 class="first">Lo Studio</h2>
+								<h2 class="first">Disclaimer</h2>
 								<p>
-									Lo Studio Legale Bicecci & Partners fonde la ventennale esperienza professionale e le specifiche competenze di ciascun partner in diritto bancario, finanziario e societario, in ambito giudiziale e stragiudiziale.
+									Il materiale contenuto in questo sito web è da considerarsi destinato a fornire esclusivamente informazioni generali sullo Studio e non costituisce prestazione di consulenza legale o di servizi di altro genere. Decliniamo ogni responsabilità per l’utilizzo, a qualunque titolo e per qualsivoglia motivo, delle informazioni contenute in questo sito.
 								</p>
-								<p>
-									Elevato grado di specializzazione, capacità di gestire problematiche complesse e forte motivazione sono i punti di forza che consentono ai professionisti dello Studio Legale Bicecci & Partners di affiancare i loro clienti come un partner concreto, tempestivo ed efficiente.
-								</p>
-								<h2>I professionisti</h2>
-								<p>
-									I professionisti dello Studio Legale Bicecci & Partners mettono a disposizione dei propri clienti capacità personali, competenze specifiche consolidate nel corso di una ventennale esperienza e grande concretezza.
-								</p>
-								<p>
-									Con disponibilità ed entusiasmo risolvono le problematiche dei propri clienti garantendo un approccio rapido, flessibile ed orientato ai risultati.
-								</p>
-								<p>
-									Il loro spirito indipendente, serio, scevro da metodiche ed impostazioni tradizionalistiche consente ai professionisti dello Studio Legale Bicecci & Partners di affiancare quotidianamente i propri clienti divenendo l’interlocutore indispensabile di uffici legali interni e di responsabili di compliance e di aree operative.
-								</p>
-								<ul class="l-collaborators-list">
-									<li><a href="collaborators/bicecci.php">Avv. Stefania Bicecci &raquo;</a></li>
-									<li><a href="collaborators/gancitano.php">Avv. Luca Gancitano &raquo;</a></li>
-									<li><a href="collaborators/scatena.php">Avv. Dario Scatena &raquo;</a></li>
-									<li><a href="collaborators/bienati.php">Avv. Giuseppe Bienati &raquo;</a></li>
-								</ul>
 							</div>
 							<div class="clear"></div>
 						</div>
@@ -84,14 +52,14 @@
 						<nav>
 							<ul class="nav">
 								<li class="home first"><a href="home.php"><span>HOME</span></a></li>
-								<li class="studio current"><a href="studio.php"><span>STUDIO</span></a></li>
+								<li class="studio"><a href="studio.php"><span>STUDIO</span></a></li>
 								<li class="expertise"><a href="expertise.php"><span>EXPERTISE</span></a></li>
 								<li class="network"><a href="network.php"><span>NETWORK</span></a></li>
 								<li class="info"><a href="info.php"><span>INFO</span></a></li>
 								<li class="workwithus"><a href="workwithus.php"><span>LAVORA CON NOI</span></a></li>
 								<li class="contacts"><a href="contacts.php"><span>CONTATTI</span></a></li>
 								<li class="privacy"><a href="privacy.php"><span>PRIVACY</span></a></li>
-								<li class="disclaimer last"><a href="disclaimer.php"><span>DISCLAIMER</span></a></li>
+								<li class="disclaimer current last"><a href="disclaimer.php"><span>DISCLAIMER</span></a></li>
 							</ul>
 						</nav>
 						<div class="company-details">
