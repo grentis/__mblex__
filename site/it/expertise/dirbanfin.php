@@ -30,7 +30,7 @@
 								</ul>
 							</nav>
 							<a class="logo" href="../home.php">Logo</a>
-							<img class="main-banner" src="../../resources/images/banner.jpg" />
+							<div class="main-banner"></div>
 						</div>
 					</header>
 					<section>
@@ -43,7 +43,7 @@
 											<li><a href="priequi.php">M&A - Private Equity</a></li>
 											<li><a href="dirsoccom.php">Diritto societario e commerciale</a></li>
 											<li><a href="dirind.php">Diritto industriale e proprietà intellettuale – Diritto Penale commerciale e Diritto del lavoro</a></li>
-											<li class="last"><a href="solcon.php">Soluzione delle controversie</a></li>
+											<li class="last"><a href="solcon.php">Risoluzione delle controversie</a></li>
 										</ul>
 									</nav>
 									<a class="l-contactus-small" href="../contacts.php">Contattaci ora</a>

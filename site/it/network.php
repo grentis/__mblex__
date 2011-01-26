@@ -30,7 +30,7 @@
 								</ul>
 							</nav>
 							<a class="logo" href="home.php">Logo</a>
-							<img class="main-banner" src="../resources/images/banner.jpg" />
+							<div class="main-banner"></div>
 						</div>
 					</header>
 					<section>

@@ -6,6 +6,9 @@
 		<meta name="keywords" content="studio legale, bicecci, blex, diritto bancario, diritto finanziario, diritto societario" />
 		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 		<meta http-equiv="refresh" content="0;url=expertise/dirbanfin.php" />
+		<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.3.0/build/cssreset/reset-min.css">
+		<link rel="stylesheet" href="../resources/style.css" type="text/css">
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
 	</head>
 	<!--[if IE]>
 		<body class="it ie">
@@ -28,7 +31,7 @@
 								</ul>
 							</nav>
 							<a class="logo" href="home.php">Logo</a>
-							<img class="main-banner" src="../resources/images/banner.jpg" />
+							<div class="main-banner"></div>
 						</div>
 					</header>
 					<section>

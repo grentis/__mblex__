@@ -30,28 +30,23 @@
 								</ul>
 							</nav>
 							<a class="logo" href="home.php">Logo</a>
-							<img class="main-banner" src="../resources/images/banner.jpg" />
+							<div class="main-banner"></div>
 						</div>
 					</header>
 					<section>
 						<div class="section">
 							<aside>
 								<div class="aside">
-									<div class="news">
-										<h3>Alert informativi<a href="info.php"></a></h3>
-										<article>
-											<div class="article first">
-												<h4><a href="info.php">Primo informativo</a></h4>
-												<p>Lo studio nasce fondendo la ventennale esperienza professionale e le specifiche...</p>
-											</div>
-										</article>
-										<article>
-											<div class="article last">
-												<h4><a href="info.php">Secondo informativo</a></h4>
-												<p>Lo studio nasce fondendo la ventennale esperienza professionale e le specifiche...</p>
-											</div>
-										</article>
+									<div class="professionist">
+										<h3 class="first last">I professionisti</h3>
+										<ul>
+											<li><a href="collaborators/bicecci.php">Avv. Stefania Bicecci &raquo;</a></li>
+											<li><a href="collaborators/gancitano.php">Avv. Luca Gancitano &raquo;</a></li>
+											<li><a href="collaborators/scatena.php">Avv. Dario Scatena &raquo;</a></li>
+											<li><a href="collaborators/bienati.php">Avv. Giuseppe Bienati &raquo;</a></li>
+										</ul>
 									</div>
+									<a class="l-contactus-small" href="contacts.php">Contattaci ora</a>
 								</div>
 							</aside>
 							<div class="content">
