@@ -106,8 +106,8 @@
 						<nav>
 							<ul class="nav">
 								<li class="home first"><a href="../home.php"><span>HOME</span></a></li>
-								<li class="studio"><a href="../studio.php"><span>STUDIO</span></a></li>
-								<li class="expertise current"><a href="../expertise.php"><span>EXPERTISE</span></a></li>
+								<li class="studio current"><a href="../studio.php"><span>STUDIO</span></a></li>
+								<li class="expertise"><a href="../expertise.php"><span>EXPERTISE</span></a></li>
 								<li class="network"><a href="../network.php"><span>NETWORK</span></a></li>
 								<li class="info"><a href="../info.php"><span>INFO</span></a></li>
 								<li class="workwithus"><a href="../workwithus.php"><span>LAVORA CON NOI</span></a></li>
