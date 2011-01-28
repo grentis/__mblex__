@@ -67,6 +67,24 @@ p { margin:10px 0; }
 .aside .where span i { font-style:normal; font-weight:bold; }
 .aside .where span.mail a { color:#6B6159; text-decoration:none; }
 
+.content form { text-align:right; margin:40px 0 0 0; }
+.content form ul { margin:0; clear:both; }
+.content form ul li { margin:0; list-style-type:none; padding:7px; border-bottom:1px solid #CCC; text-align:right; position:relative; }
+.content form label { width:200px; display:block; float:left; text-align:left; }
+.content form .field { clear:both; }
+.content form span.checkbox-title { position:absolute; top:7px; left:7px; display:block; }
+.content form ul.checkbox li { border:0; padding:4px 7px; }
+.content form ul.checkbox label { float:right; width:280px; padding:0 0 0 10px; }
+.content form textarea { margin:0; width:300px; height:150px; padding:3px 5px; font-family:Helvetica; font-size:12px; }
+.content form input { padding:3px 5px; width:300px; font-family:Helvetica; }
+.content form input[type=checkbox] { width:20px; }
+.content form input.button { margin:15px 0 0 0; border:0; width:140px; cursor:pointer; text-indent:-10000px; overflow:hidden; height:30px; background:transparent url(images/it/bottoni.png) no-repeat -40px 0; }
+.content form input.button:hover { background-position-y:-32px; }
+
+.content form input.error,
+	.content form textarea.error { border:1px solid red; }
+.content form label.error { display:block; float:none; width:100%; text-align:right; color:red; padding:3px 10px 0 0; }
+
 /* footer */
 .footer { text-align:center; font-size:11px; margin:20px 0 0 0; color:#7d7d7b; }
 .footer .nav li { display:inline; border-right:1px solid #7d7d7b; padding:0 10px 0 5px; }
@@ -88,3 +106,5 @@ a.print { background-position:-351px -156px; padding:4px 0 2px 25px; }
 a.cv { background-position:-351px -137px; padding:4px 0 4px 25px; }
 
 p.add-margin { margin-bottom:300px; }
+
+div.google_map { width:200px; height:300px; border:1px solid #CCC; margin:50px 0 0 0; }
