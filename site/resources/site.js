@@ -5,36 +5,41 @@ $(function(){
   		setTimeout(change_banner,5000);	
   		checkEmails();
   		
-  		$('#contact-form').validate({
-  			rules: {
-    			email: {
-      				required: true,
-      				email: true
-    			},
-    			name: {
-    				required: true
-    			},
-    			job: {
-    				required: true
-    			},
-    			company: {
-    				required: true	
-    			},
-    			message: {
-    				required: true
-    			}
-  			}
-  		});
-  		
+  		contactForm();
   		initializeGoogleMaps();
   		
-  		
   	});
+  	
+  	function contactForm(){
+  		var c = $('#contact-form');
+  		if(c && c.size() > 0){
+			c.validate({
+	  			rules: {
+	    			email: {
+	      				required: true,
+	      				email: true
+	    			},
+	    			name: {
+	    				required: true
+	    			},
+	    			job: {
+	    				required: true
+	    			},
+	    			company: {
+	    				required: true	
+	    			},
+	    			message: {
+	    				required: true
+	    			}
+	  			}
+	  		});
+	  	}
+  	}
   	
   	
   	function initializeGoogleMaps() {
   		var canv = $('#google_map');
-  		if(canv){
+  		if(canv && canv.size() > 0){
 	    	var latlng = new google.maps.LatLng(45.4714904,9.2045950);
 	    	var myOptions = {
 	      		zoom: 15,
