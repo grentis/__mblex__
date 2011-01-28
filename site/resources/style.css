@@ -40,6 +40,9 @@ p { margin:10px 0; }
 .content ul { margin:0 0 10px 0; }
 .content ul li { list-style-type:disc; display:list-item; margin:0 0 0 15px; }
 
+.content .news .article { margin:0 0 20px 0; padding:0 0 10px 0; border-bottom:1px solid #CCC; }
+.content .news .article h4 { margin:0; }
+
 .aside h3 { position:relative; color:#6a6359; font-size:14px; font-weight:bold; margin:0 0 5px 0; background:transparent url(images/line_titlebotton_colonnasx.jpg) repeat-x 0 bottom; height:30px; }
 .aside h3 a { display:block; width:22px; height:22px; position:absolute; top:-3px; right:0; background:transparent url(images/it/bottoni.png) no-repeat 0 0; }
 .aside h3 a:hover { background-position:0 -24px; }
@@ -59,6 +62,11 @@ p { margin:10px 0; }
 .aside .professionist h3 { margin:20px 0 0 0; }
 .aside .professionist h3.first { margin:0; }
 
+.aside .where span { display:block; color:#6B6159; font-size:12px; }
+.aside .where span.name { font-weight:bold; font-size:13px; }
+.aside .where span i { font-style:normal; font-weight:bold; }
+.aside .where span.mail a { color:#6B6159; text-decoration:none; }
+
 /* footer */
 .footer { text-align:center; font-size:11px; margin:20px 0 0 0; color:#7d7d7b; }
 .footer .nav li { display:inline; border-right:1px solid #7d7d7b; padding:0 10px 0 5px; }
@@ -75,7 +83,7 @@ a:hover.l-contactus-small { background-position:-198px -62px; }
 ul.l-collaborators-list { margin:30px 0 0 0; }
 ul.l-collaborators-list a { color:#065f33; font-weight:bold; line-height:25px; }
 
-a.mail, a.print, a.cv { text-decoration:none; margin:4px 0; display:block; background:url(images/it/bottoni.png) no-repeat -351px -122px; padding:1px 0 2px 25px; line-height:16px; height:12px; }
+a.mail, a.print, a.cv { color:#6B6159; text-decoration:none; margin:4px 0; display:block; background:url(images/it/bottoni.png) no-repeat -351px -122px; padding:1px 0 2px 25px; line-height:16px; height:12px; }
 a.print { background-position:-351px -156px; padding:4px 0 2px 25px; }
 a.cv { background-position:-351px -137px; padding:4px 0 4px 25px; }
 

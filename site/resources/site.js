@@ -3,6 +3,7 @@ $(function(){
 	
 	$(document).ready(function($) {
   		setTimeout(change_banner,5000);	
+  		checkEmails();
   	});
   	
   	function change_banner(){
@@ -18,5 +19,11 @@ $(function(){
 			});	
 			setTimeout(change_banner,5000);	
   		}
+  	}
+  	
+  	function checkEmails(){
+  		$('a[rel=nofollow]').each(function(index) {
+  			$(this).text($(this).attr('href')+'@mblex.it').attr('href','mailto:'+$(this).text());
+  		});
   	}
 });
