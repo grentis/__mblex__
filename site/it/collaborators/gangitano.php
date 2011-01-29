@@ -1,6 +1,6 @@
 <?php
 	$CURRENT_PAGE = 'studio';
-	$CURRENT_SUBPAGE = 'bienati';
+	$CURRENT_SUBPAGE = 'gangitano';
 	$CURRENT_LEVEL = 2;
 
 	require_once('../php/local_conf.php');
@@ -30,7 +30,7 @@
 										</ul>
 										<h3>Contatti</h3>
 										<ul>
-											<li><a class="mail" href="bienati" rel="nofollow">Mail</a></li>
+											<li><a class="mail" href="gangitano" rel="nofollow">Mail</a></li>
 											<li><a class="cv" href="">CV</a></li>
 											<li><a class="print" href="">Print</a></li>
 										</ul>
@@ -41,7 +41,7 @@
 							</aside>
 							<div class="content">
 								<h2 class="first">I Professionisti</h2>
-								<h4>Avv. Giuseppe Bienati</h4>
+								<h4>Avv. Luca Gangitano</h4>
 								<h6>Esperienze professionali e formazione</h6>
 								<p>
 									xxx
