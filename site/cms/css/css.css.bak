@@ -1,0 +1,47 @@
+body{width:950px;margin:0 auto;font-family:Helvetica, 'san serif';font-size:12px; }
+div.rows {border-bottom:0 dotted #ddd;width:910px;margin:0 auto;}
+
+div.header {background: url(../img/header.jpg) no-repeat;height:100px;width:100%;}
+
+div.content {width:950px;background: url(../img/bg_content.jpg) repeat-y;padding-bottom:10px;}
+
+fieldset {border:0;}
+
+label {text-transform:capitalize;}
+
+input, textarea {margin-bottom:5px;}
+
+input[type=text] {width:885px;}
+
+table {width:100%;margin:0;padding:0;border:0;background:#fff;border:1px solid #F1F1F1}
+table th {background:#ddd;text-transform:capitalize;text-align:left;padding:5px 10px;}
+table td {text-align:left;padding:5px 10px;}
+
+tr.odd{background:#F1F1F1;}
+
+.actions {width:74px;}
+
+h2 {background:#F1F1F1;margin:20px 0 0 0;padding:10px 15px;font-size:14px;}
+
+.form {background:#fff;border:1px solid #F1F1F1}
+
+.form table{width:140px;}
+
+.form input[type=submit]{margin-left:5px;}
+
+.form table {margin:0;padding:0;border:0;}
+
+input[type=submit] {border:0;height:26px;width:74px;cursor:pointer;text-indent:-1000px;font-size: 0;   display: block; line-height: 0;}
+
+/*input.save {background:url(../img/save_btn.png) no-repeat;border:0;height:26px;width:74px;cursor:pointer;text-indent:-10000px;}*/
+
+input[type=submit].save {background:url(../img/save_btn.png) no-repeat;}
+
+input[type=reset].reset {background:url(../img/reset_btn.png) no-repeat;}
+
+input[type=submit].edit {background:url(../img/update_btn.png) no-repeat;}
+
+input[type=submit].delete {background:url(../img/delete_btn.png) no-repeat;}
+
+input.error, select.error, textarea.error {border:1px solid red;}
+div.error {color:red;}

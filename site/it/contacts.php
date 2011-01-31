@@ -23,6 +23,7 @@
 								<div class="aside">
 									<?php include_once('../template/__aside_where.php'); ?>
 									<div class="google_map" id="google_map"></div>
+									<a target="_blank" class="map" href="http://maps.google.it/maps?f=q&amp;source=embed&amp;hl=it&amp;geocode=&amp;q=via+baretti+1+milano&amp;aq=&amp;sll=41.442726,12.392578&amp;sspn=25.512085,39.506836&amp;ie=UTF8&amp;hq=&amp;hnear=Via+Giuseppe+Baretti,+20122+Milano,+Lombardia&amp;t=h&amp;ll=45.471568,9.205256&amp;spn=0.017876,0.01708&amp;z=14&amp;iwloc=A">Visualizzazione ingrandita della mappa</a>
 								</div>
 							</aside>
 							<div class="content">

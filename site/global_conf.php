@@ -50,6 +50,8 @@
 					'KEYWORD_TAG'		=> 'studio legale, bicecci, blex, diritto bancario, diritto finanziario, diritto societario',
 					'WHERE'				=> 'Where'
 				);
+			
+	$PREVIEW_NEWS_MAX_LENGTH = 110;
 	
 	function createPATH($level){
 		$res = '';

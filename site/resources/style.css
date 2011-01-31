@@ -62,6 +62,8 @@ p { margin:10px 0; }
 .aside .professionist h3 { margin:20px 0 0 0; }
 .aside .professionist h3.first { margin:0; }
 
+.aside a.map { color:#817871; font-size:11px; }
+
 .aside .where span { display:block; color:#6B6159; font-size:12px; }
 .aside .where span.name { font-weight:bold; font-size:13px; }
 .aside .where span i { font-style:normal; font-weight:bold; }

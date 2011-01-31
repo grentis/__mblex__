@@ -28,24 +28,18 @@
 							<div class="content">
 								<h2 class="first">Lo studio informa</h2>
 								<div class="news">
-									<article>
-										<div class="article">
-											<h5><date>14 gennaio 2010</date></h5>
-											<h4>Legge 30 dicembre 2010, n. 240</h4>
-											<p>
-												Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
-											</p>
-										</div>
-									</article>
-									<article>
-										<div class="article">
-											<h5><date>14 gennaio 2010</date></h5>
-											<h4>Legge 30 dicembre 2010, n. 240</h4>
-											<p>
-												Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
-											</p>
-										</div>
-									</article>
+									<?php include_once("../cms/inc/xmlFunc.php") ?>
+									<?php foreach (getNews(null,'../data/news.xml') as $news) { ?>
+										<article>
+											<div class="article">
+												<h5><date><?php echo $news['date'] ?></date></h5>
+												<h4><?php echo $news['title'] ?></h4>
+												<p>
+													<?php echo $news['description'] ?>
+												</p>
+											</div>
+										</article>
+									<?php } ?>
 								</div>
 							</div>
 							<div class="clear"></div>
