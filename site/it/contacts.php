@@ -8,6 +8,9 @@
 <!DOCTYPE HTML>
 <html>
 	<?php include_once('../template/__head.php'); ?>
+	<!--[if IE 7]>
+		<body class="it ie ie7">
+	<![endif]-->
 	<!--[if IE]>
 		<body class="it ie">
 	<![endif]-->
@@ -32,7 +35,56 @@
 									Per maggiori informazioni e per sottoporci le vostre domande compilate il form qui di seguito e sarete al più presto ricontattati da un nostro collaboratore.<br/>
 									Grazie.
 								</p>
-								<form action="" method="post" id="contact-form">
+								<?php
+								
+									if (isset($_POST['submit'])){
+										ini_set("SMTP", "mail.intra.acer-euro.com");
+										
+										$subject = "Richiesta maggiori informazioni - dal sito";
+										$to = "grentis+test@gmail.com";
+										
+										$message = "<html>";
+										$message .= "<body>";
+										$message .= "<img src=\"http://www.invenium.it/studio_bicecci/logo_email/logo.jpg\" />";
+										$message .= "<h3>";
+										$message .= "Richiesta maggiori informazioni:";	
+										$message .= "</h3>";
+										$message .= "<p>Nome e Cognome: ".$_POST['name']."</p>";
+										$message .= "<p>Email: ".$_POST['email']."</p>";
+										$message .= "<p>Azienda/Studio: ".$_POST['company']."</p>";
+										if (isset($_POST['phone']))
+											$message .= "<p>Telefono: ".$_POST['phone']."</p>";
+										if (isset($_POST['address']))
+											$message .= "<p>Indirizzo (n° civico, CAP): ".$_POST['address']."</p>";
+										$message .= "<p>Professione: ".$_POST['job']."</p>";
+										
+										if (isset($_POST['html'])) {
+											$message .= "<p>Focus/Area di practice</p><ul>";
+											foreach ($_POST['html'] as $check) {
+												$message .= "<li>".$check."</li>";												
+											}
+											$message .= "</ul>";
+										}
+										
+										$message .= "<p>Messaggio: ".$_POST['message']."</p>";
+										$message .= "</body>";
+										$message .= "</html>";
+										
+										// To send HTML mail, the Content-type header must be set
+										$headers  = 'MIME-Version: 1.0' . "\r\n";
+										$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+
+										// Additional headers
+										$headers .= 'To: '.$_POST['name'].' <'.$to.'>' . "\r\n";
+										$headers .= 'From: Studio Legale Bicecci e Partners <info@mblex.it>' . "\r\n";
+										
+										if (mail("$to", "$subject", "$message", "$headers"))
+											echo "<h3 class=\"flash-message flash-message-ok\">Richiesta inviata correttamente</h3>";
+										else
+											echo "<h3 class=\"flash-message flash-message-ko\">Si è verificato un errore nell'invio della mail. Prego riprovare più tardi.</h3>";
+									}								
+								?>
+								<form action="<?php echo $_SERVER['PHP_SELF']?>" method="post" id="contact-form">
 									<ul class="form">
 										<li class="field mandatory first">
 											<label for="name">Nome e Cognome *</label>
@@ -66,27 +118,27 @@
 											<span class="checkbox-title">Focus/Area di practice</span>
 											<ul class="checkbox">
 												<li>
-													<input type="checkbox" name="html" value="dirbanfin" id="dirbanfin"/>
+													<input type="checkbox" name="html[]" value="dirbanfin" id="dirbanfin"/>
 													<label for="dirbanfin">Diritto bancario e finanziario</label>
 												</li>
 												<li>
-													<input type="checkbox" name="html" value="solcon" id="solcon"/>
+													<input type="checkbox" name="html[]" value="solcon" id="solcon"/>
 													<label for="solcon">Soluzione delle controversie</label>
 												</li>
 												<li>
-													<input type="checkbox" name="html" value="proint" id="proint"/>
+													<input type="checkbox" name="html[]" value="proint" id="proint"/>
 													<label for="proint">Proprietà intellettuale</label>
 												</li>
 												<li>
-													<input type="checkbox" name="html" value="priequi" id="priequi"/>
+													<input type="checkbox" name="html[]" value="priequi" id="priequi"/>
 													<label for="priequi">Private Equity</label>
 												</li>
 												<li>
-													<input type="checkbox" name="html" value="mea" id="mea"/>
+													<input type="checkbox" name="html[]" value="mea" id="mea"/>
 													<label for="mea">M&A</label>
 												</li>
 												<li>
-													<input type="checkbox" name="html" value="dirsoccom" id="dirsoccom"/>
+													<input type="checkbox" name="html[]" value="dirsoccom" id="dirsoccom"/>
 													<label for="dirsoccom">Diritto societario e commerciale</label>
 												</li>
 											</ul>
@@ -96,7 +148,7 @@
 											<textarea name="message" id="message"></textarea>
 										</li>
 									</ul>
-									<input type="submit" value="submit" class="button" />
+									<input type="submit" value="submit" name="submit" class="button" />
 								</form>
 							</div>
 							<div class="clear"></div>

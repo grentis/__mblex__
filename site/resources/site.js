@@ -3,12 +3,38 @@ $(function(){
 	
 	$(document).ready(function($) {
   		setTimeout(change_banner,5000);	
+  		setTimeout(hideFlash,5000);
   		checkEmails();
   		
   		contactForm();
+  		workForm();
   		initializeGoogleMaps();
   		
   	});
+  	
+  	function workForm(){
+  		var c = $('#workwithus-form');
+  		if(c && c.size() > 0){
+			c.validate({
+	  			rules: {
+	    			email: {
+	      				required: true
+	    			},
+	    			name: {
+	    				required: true
+	    			},
+	    			cv: {
+	    				required: true,
+	    				accept: "pdf"
+	    			},
+	    			pap: {
+	    				accept: "pdf|ppt|doc|dox|pptx"	
+	    			}
+	  			}
+	  		});
+	  	}
+  		
+  	}
   	
   	function contactForm(){
   		var c = $('#contact-form');
@@ -69,6 +95,12 @@ $(function(){
 			});	
 			setTimeout(change_banner,5000);	
   		}
+  	}
+  	
+  	function hideFlash(){
+  		$('h3.flash-message').each(function(){
+  			$(this).fadeOut();
+  		});
   	}
   	
   	function checkEmails(){
