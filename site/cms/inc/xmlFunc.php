@@ -32,7 +32,7 @@
 
 				'date' => $new->getElementsByTagName( "date" )->item(0)->nodeValue,
 
-				'title' => $new->getElementsByTagName( "title" )->item(0)->nodeValue,
+				'title' => htmlspecialchars_decode($new->getElementsByTagName( "title" )->item(0)->nodeValue),
 
 				'description' => $new->getElementsByTagName( "description" )->item(0)->nodeValue,
 				);
@@ -46,6 +46,7 @@
 				list($dd, $mm, $yyyy) = explode('/', $new->getAttributeNode('date')->nodeValue);
 
 				$noewdate = mktime(0,0,0,$mm, $dd, $yyyy);
+				$noewdate.= $new->getAttributeNode('xml:id')->nodeValue;
 
 
 				//var_dump($new);
@@ -56,7 +57,7 @@
 
 				'date' => $new->getElementsByTagName( "date" )->item(0)->nodeValue,
 
-				'title' => $new->getElementsByTagName( "title" )->item(0)->nodeValue,
+				'title' => htmlspecialchars_decode($new->getElementsByTagName( "title" )->item(0)->nodeValue),
 
 				'description' => $new->getElementsByTagName( "description" )->item(0)->nodeValue,
 				
@@ -86,7 +87,7 @@
 		
 		$news [] = array(
 			'date' => $date,
-			'title' => $title,
+			'title' => stripslashes(htmlentities($title, ENT_QUOTES)),
 			'description' => $description,
 		);
 			
@@ -161,7 +162,7 @@
 		$date_->appendChild($dateText_);
 
 		$title_     = $doc->createElement("title");
-		$titleText_ = $doc->createTextNode($title);
+		$titleText_ = $doc->createTextNode(stripslashes(htmlentities($title, ENT_QUOTES)));
 		$title_->appendChild($titleText_);
 
 		$description_     = $doc->createElement("description");

@@ -7,9 +7,13 @@
 	$messaggio = "";
 	$item = array();
 	
-	if(isset($_POST['reset'])) {
+	if(isset($_POST['reset']))
+	{
 		$item = array();
-	} else if (isset($_POST['save'])) {
+		header('Location: '.$_SERVER['PHP_SELF']);
+	}
+    
+	if (isset($_POST['save'])) {
 		if  (isset($_POST['id']))
 			updateNews($_POST['id'], $_POST['date'], $_POST['title'], $_POST['description'], $xml);
 		else
@@ -201,7 +205,7 @@
 				<table>
 					<tr>
 						<td><input type="submit" name="save" value="Save News" class="save" /></td>
-						<td><input type="reset" name="reset "value="Reset" class="reset" /></td>
+						<td><a href="<?=$_SERVER['PHP_SELF']?>"><img src="img/reset_btn.png"></a></td>
 					</tr>
 				</table>
 			</form>
