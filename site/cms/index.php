@@ -96,9 +96,6 @@
 			    			},
 			    			title: {
 			    				required: true
-			    			},
-			    			description: {
-			    				required: true
 			    			}
 			  			}
 			  		});

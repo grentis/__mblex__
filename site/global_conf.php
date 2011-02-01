@@ -53,6 +53,8 @@
 			
 	$PREVIEW_NEWS_MAX_LENGTH = 110;
 	
+	$EMAIL_TO = 'grentis@gmail.com';
+	
 	function createPATH($level){
 		$res = '';
 		for($i = 1; $i < $level; ++$i){

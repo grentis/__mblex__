@@ -37,7 +37,7 @@
 								
 									if (isset($_POST['submit'])){
 										
-										ini_set("SMTP", "mail.intra.acer-euro.com");
+										ini_set("SMTP", "localhost");
 										$random_hash = md5(date('r', time()));
 										
 										$fileatt      = $_FILES['cv']['tmp_name'];     
@@ -63,7 +63,7 @@
 										}
 										
 										$subject = "Invio CV - dal sito";
-										$to = "grentis+test@gmail.com";
+										$to = $EMAIL_TO;
 										
 										$mime_boundary = "==Multipart_Boundary_x{$random_hash}x";
 										
@@ -71,9 +71,8 @@
 										$headers .= 'To: '.$_POST['name'].' <'.$to.'>' . "\r\n";
 										$headers .= 'From: Studio Legale Bicecci e Partners <info@mblex.it>' . "\r\n";
 
-										$headers .= "\nMIME-Version: 1.0\n" .
-													"Content-Type: multipart/mixed;\n" .  
-													" boundary=\"{$mime_boundary}\"";
+										$headers .= "MIME-Version: 1.0\n" .
+													"Content-Type: multipart/mixed; boundary=\"{$mime_boundary}\"";
 													
 										$message = 	"This is a multi-part message in MIME format.\n\n" .     
 							            		   	"--{$mime_boundary}\n" .     

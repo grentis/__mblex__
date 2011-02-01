@@ -38,10 +38,10 @@
 								<?php
 								
 									if (isset($_POST['submit'])){
-										ini_set("SMTP", "mail.intra.acer-euro.com");
+										ini_set("SMTP", "localhost");
 										
 										$subject = "Richiesta maggiori informazioni - dal sito";
-										$to = "grentis+test@gmail.com";
+										$to = $EMAIL_TO;
 										
 										$message = "<html>";
 										$message .= "<body>";
@@ -118,27 +118,27 @@
 											<span class="checkbox-title">Focus/Area di practice</span>
 											<ul class="checkbox">
 												<li>
-													<input type="checkbox" name="html[]" value="dirbanfin" id="dirbanfin"/>
+													<input type="checkbox" name="html[]" value="Diritto bancario e finanziario" id="dirbanfin"/>
 													<label for="dirbanfin">Diritto bancario e finanziario</label>
 												</li>
 												<li>
-													<input type="checkbox" name="html[]" value="solcon" id="solcon"/>
+													<input type="checkbox" name="html[]" value="Soluzione delle controversie" id="solcon"/>
 													<label for="solcon">Soluzione delle controversie</label>
 												</li>
 												<li>
-													<input type="checkbox" name="html[]" value="proint" id="proint"/>
+													<input type="checkbox" name="html[]" value="Proprietà intellettuale" id="proint"/>
 													<label for="proint">Proprietà intellettuale</label>
 												</li>
 												<li>
-													<input type="checkbox" name="html[]" value="priequi" id="priequi"/>
+													<input type="checkbox" name="html[]" value="Private Equity" id="priequi"/>
 													<label for="priequi">Private Equity</label>
 												</li>
 												<li>
-													<input type="checkbox" name="html[]" value="mea" id="mea"/>
+													<input type="checkbox" name="html[]" value="M&A" id="mea"/>
 													<label for="mea">M&A</label>
 												</li>
 												<li>
-													<input type="checkbox" name="html[]" value="dirsoccom" id="dirsoccom"/>
+													<input type="checkbox" name="html[]" value="Diritto societario e commerciale" id="dirsoccom"/>
 													<label for="dirsoccom">Diritto societario e commerciale</label>
 												</li>
 											</ul>
