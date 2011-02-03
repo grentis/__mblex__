@@ -9,14 +9,14 @@
 <html>
 	<?php include_once('../template/__head.php'); ?>
 	<!--[if IE 7]>
-		<body class="it ie ie7">
+		<body class="<?php echo $LANGUAGE?> ie ie7">
 	<![endif]-->
 	<!--[if IE]>
-		<body class="it ie">
+		<body class="<?php echo $LANGUAGE?> ie">
 	<![endif]-->
-	<!--[if !IE]>
-		<body class="it">
-	<![endif]-->
+	<!--[if !IE]>-->
+		<body class="<?php echo $LANGUAGE?>">
+	<!--<![endif]-->
 			<div class="container">
 				<div class="main">
 					<?php include_once('../template/__header.php'); ?>
@@ -122,25 +122,21 @@
 													<label for="dirbanfin">Diritto bancario e finanziario</label>
 												</li>
 												<li>
-													<input type="checkbox" name="html[]" value="Soluzione delle controversie" id="solcon"/>
-													<label for="solcon">Soluzione delle controversie</label>
-												</li>
-												<li>
-													<input type="checkbox" name="html[]" value="Proprietà intellettuale" id="proint"/>
-													<label for="proint">Proprietà intellettuale</label>
-												</li>
-												<li>
-													<input type="checkbox" name="html[]" value="Private Equity" id="priequi"/>
-													<label for="priequi">Private Equity</label>
-												</li>
-												<li>
-													<input type="checkbox" name="html[]" value="M&A" id="mea"/>
-													<label for="mea">M&A</label>
+													<input type="checkbox" name="html[]" value="M&A - Private Equity" id="mea"/>
+													<label for="mea">M&A - Private Equity</label>
 												</li>
 												<li>
 													<input type="checkbox" name="html[]" value="Diritto societario e commerciale" id="dirsoccom"/>
 													<label for="dirsoccom">Diritto societario e commerciale</label>
 												</li>
+												<li>
+													<input type="checkbox" name="html[]" value="Diritto industriale e proprietà intellettuale – Diritto Penale commerciale e Diritto del lavoro" id="priequi"/>
+													<label for="priequi">Diritto industriale e proprietà intellettuale – Diritto Penale commerciale e Diritto del lavoro</label>
+												</li>
+												<li>
+													<input type="checkbox" name="html[]" value="Soluzione delle controversie" id="solcon"/>
+													<label for="solcon">Soluzione delle controversie</label>
+												</li>												
 											</ul>
 										</li>
 										<li class="field mandatory">

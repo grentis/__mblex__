@@ -4,8 +4,10 @@
 
 html { background-color:#fefaef; font-family:Helvetica; font-size:12px; color:#666; line-height:20px; }
 .container { width:990px; position:absolute; left:50%; margin-left:-495px; }
+.popup .container { width:400px; position:relative; margin:0; }
 
 .main { width:950px; padding:0 20px; background:transparent url(images/background_body.jpg) repeat-y 0 0; }
+.popup .main { width:400px; }
 
 /* header */
 .header { background:transparent url(images/bg_menu_top.jpg) repeat-x 0 0; width:100%; height:70px; }
@@ -24,7 +26,6 @@ html { background-color:#fefaef; font-family:Helvetica; font-size:12px; color:#6
 .header .nav .info a { background-position:-280px 0; width:70px; }
 .header .nav .workwithus a { background-position:-350px 0; width:139px; }
 .header .nav .contacts a { background-position:-489px 0; width:97px; }
-
 
 /* content */
 .section { clear:both; margin:152px 0 0 0; position:relative; border-bottom:1px solid #e0d9d1; background:transparent url(images/bg_colonna_sx_top.jpg) no-repeat 0 0; }
@@ -76,7 +77,7 @@ p { margin:10px 0; }
 .content form ul li { margin:0; list-style-type:none; padding:7px; border-bottom:1px solid #CCC; text-align:right; position:relative; }
 .content form label { width:250px; display:block; float:left; text-align:left; }
 .content form span.checkbox-title { position:absolute; top:7px; left:7px; display:block; }
-.content form ul.checkbox li { border:0; padding:4px 7px; }
+.content form ul.checkbox li { border:0; padding:4px 7px; clear:both; }
 .content form ul.checkbox label { float:right; width:280px; padding:0 0 0 10px; }
 .content form textarea { border:1px solid #AAA; margin:0; width:300px; height:150px; padding:3px 5px; font-family:Helvetica; font-size:12px; }
 .content form input { border:1px solid #AAA; padding:5px 5px; width:300px; font-family:Helvetica; }

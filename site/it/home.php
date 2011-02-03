@@ -9,12 +9,12 @@
 <!DOCTYPE HTML>
 <html>
 	<?php include_once('../template/__head.php'); ?>
-	<!--[if IE]>
+	<!--[if IE ]>
 		<body class="<?php echo $LANGUAGE ?> ie">
 	<![endif]-->
-	<!--[if !IE]>
+	<!--[if !IE]>-->
 		<body class="<?php echo $LANGUAGE ?>">
-	<![endif]-->
+	<!--<![endif]-->
 			<div class="container">
 				<div class="main">
 					<?php include_once('../template/__header.php'); ?>
