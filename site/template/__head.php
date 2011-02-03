@@ -8,10 +8,14 @@
 	<?php } ?>
 	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.3.0/build/cssreset/reset-min.css">
 	<link rel="stylesheet" href="../<?php echo createPATH($CURRENT_LEVEL) ?>resources/style.css" type="text/css">
+	<?php if((strtoupper($CURRENT_PAGE) == 'CONTACTS') || (strtoupper($CURRENT_PAGE) == 'WORKWITHUS')) { ?>
+		<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+	<?php } ?>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
 	<?php if((strtoupper($CURRENT_PAGE) == 'CONTACTS') || (strtoupper($CURRENT_PAGE) == 'WORKWITHUS')) { ?>
 		<script type="text/javascript" src="../<?php echo createPATH($CURRENT_LEVEL) ?>resources/jquery.validate.pack.js"></script>
 		<script type="text/javascript" src="../<?php echo createPATH($CURRENT_LEVEL) ?>resources/loc/messages_it.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
 		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 	<?php } ?>
 	<script type="text/javascript" src="../<?php echo createPATH($CURRENT_LEVEL) ?>resources/site.js"></script>

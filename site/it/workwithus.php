@@ -37,7 +37,7 @@
 								
 									if (isset($_POST['submit'])){
 										
-										ini_set("SMTP", "localhost");
+										ini_set("SMTP", "mail.intra.acer-euro.com");
 										$random_hash = md5(date('r', time()));
 										
 										$fileatt      = $_FILES['cv']['tmp_name'];     
@@ -83,6 +83,12 @@
 													"<img src=\"http://www.invenium.it/studio_bicecci/logo_email/logo.jpg\" />" .
 													"<h3>Invio CV</h3>" .
 													"<p>Nome e Cognome: ".$_POST['name']."</p>" .
+													(isset($_POST['birthplace'])?"<p>Luogo di nascita: ".$_POST['birthplace']."</p>":"") .
+													(isset($_POST['birthday'])?"<p>Data di nascita: ".$_POST['birthday']."</p>":"") .
+													"<p>Residenza: ".$_POST['address']."</p>" .
+													"<p>Telefono: ".$_POST['phone']."</p>" .
+													"<p>Email: ".$_POST['email']."</p>" .
+													(isset($_POST['qualification'])?"<p>Titolo di studio: ".$_POST['qualification']."</p>":"") .
 													"</body>" .
 													"</html>" .
 							            			"\n\n";
@@ -121,20 +127,28 @@
 											<input type="string" name="name" id="name"/>
 										</li>
 										<li class="field mandatory">
-											<label for="email">Luogo e data di nascita *</label>
-											<input type="email" name="email" id="email"/>
+											<label for="birthplace">Luogo di nascita </label>
+											<input type="string" name="birthplace" id="birthplace"/>
 										</li>
 										<li class="field mandatory">
-											<label for="company">Codice fiscale *</label>
-											<input type="string" name="company" id="company"/>
+											<label for="birtday">Data di nascita </label>
+											<input type="string" name="birthday" id="birthday"/>
 										</li>
 										<li class="field">
-											<label for="phone">Residenza e contatti (tel, cell, email) *</label>
+											<label for="address">Residenza *</label>
+											<input type="string" name="address" id="address"/>
+										</li>
+										<li class="field">
+											<label for="phone">Telefono *</label>
 											<input type="string" name="phone" id="phone"/>
 										</li>
 										<li class="field">
-											<label for="address">Titolo di studio</label>
-											<input type="string" name="address" id="address"/>
+											<label for="email">Email *</label>
+											<input type="email" name="email" id="email"/>
+										</li>
+										<li class="field">
+											<label for="qualification">Titolo di studio</label>
+											<input type="string" name="qualification" id="qualification"/>
 										</li>
 										<li class="field mandatory">
 											<label for="city">CV *</label>
@@ -145,6 +159,11 @@
 											<label for="job">Lettera di accompagnamento</label>
 											<input type="string" class="fake-file-value" disabled="disabled" />
 											<input type="file" class="fake-file" name="pap" id="pap"/>
+										</li>
+										<li class="field mandatory privacy">
+											<label for="privacy">Autorizzo ai sensi del D. Lgs. 30 Giugno 2003 n. 196 il trattamento dei dati personali trasmessi.</label>
+											<input type="checkbox" name="privacy" value="true" id="privacy"/>
+											
 										</li>
 									</ul>
 									<input type="submit" value="submit" name="submit" class="button" />

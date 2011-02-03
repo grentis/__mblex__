@@ -18,9 +18,16 @@ $(function(){
 			c.validate({
 	  			rules: {
 	    			email: {
-	      				required: true
+	      				required: true,
+	      				email: true
 	    			},
 	    			name: {
+	    				required: true
+	    			},
+	    			address: {
+	    				required: true
+	    			},
+	    			phone: {
 	    				required: true
 	    			},
 	    			cv: {
@@ -29,9 +36,13 @@ $(function(){
 	    			},
 	    			pap: {
 	    				accept: "pdf|ppt|doc|dox|pptx"	
+	    			},
+	    			privacy: {
+	    				required:true	
 	    			}
 	  			}
 	  		});
+	  		$("#birthday").datepicker({ dateFormat: 'dd/mm/yy' });
 	  	}
   		
   	}
@@ -56,6 +67,9 @@ $(function(){
 	    			},
 	    			message: {
 	    				required: true
+	    			},
+	    			privacy: {
+	    				required:true	
 	    			}
 	  			}
 	  		});

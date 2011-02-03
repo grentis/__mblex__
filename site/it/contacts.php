@@ -143,6 +143,11 @@
 											<label for="message">Messaggio *</label>
 											<textarea name="message" id="message"></textarea>
 										</li>
+										<li class="field mandatory privacy">
+											<label for="privacy">Autorizzo ai sensi del D. Lgs. 30 Giugno 2003 n. 196 il trattamento dei dati personali trasmessi.</label>
+											<input type="checkbox" name="privacy" value="true" id="privacy"/>
+											
+										</li>
 									</ul>
 									<input type="submit" value="submit" name="submit" class="button" />
 								</form>
