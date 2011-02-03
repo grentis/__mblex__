@@ -31,8 +31,6 @@
 										<h3>Contatti</h3>
 										<ul>
 											<li><a class="mail" href="gangitano" rel="nofollow">Mail</a></li>
-											<li><a class="cv" href="">CV</a></li>
-											<li><a class="print" href="">Print</a></li>
 										</ul>
 										<?php include_once('__aside_menu.php'); ?>
 									</div>
