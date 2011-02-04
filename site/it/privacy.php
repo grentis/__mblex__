@@ -9,15 +9,17 @@
 <html>
 	<?php include_once('../template/__head.php'); ?>
 	<!--[if IE ]>
-		<body class="it ie popup">
+		<body class="<?php echo $LANGUAGE ?> ie <?php echo (isset($_GET['popup'])?"popup":"") ?>">
 	<![endif]-->
 	<!--[if !IE]>-->
-		<body class="it popup">
+		<body class="<?php echo $LANGUAGE ?> <?php echo (isset($_GET['popup'])?"popup":"") ?>">
 	<!--<![endif]-->
 			<div class="container">
 				<div class="main">
+					<?php include_once('../template/__header.php'); ?>
 					<section>
 						<div class="section">
+							<aside></aside>
 							<div class="content">
 								<h2 class="first">Privacy</h2>
 								<p>
@@ -36,6 +38,7 @@
 						</div>
 					</section>
 				</div>
+				<?php include_once('../template/__footer.php'); ?>
 			</div>
 		</body>
 </html>

@@ -136,7 +136,7 @@
 							<!-- <td><?=$item['id']?></td> -->
 							<td><?=$new['date']?></td>
 							<td><?=$new['title']?></td>
-							<td><?=$new['description']?></td>
+							<td><?=(strlen($new['description']) > 100)?substr($new['description'],0,100).' ...':$new['description']?></td>
 							<td class="actions"><input type="submit" name="edit" value="<?=$new['id']?>" class="edit" /></td>
 							<td class="actions"><input type="submit" name="delete" value="<?=$new['id']?>" class="delete" onclick="return confirmation('<?=$new['title']?>', '<?=$new['date']?>')" /></td>
 						</tr>

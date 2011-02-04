@@ -4,10 +4,12 @@
 
 html { background-color:#fefaef; font-family:Helvetica; font-size:12px; color:#666; line-height:20px; }
 .container { width:990px; position:absolute; left:50%; margin-left:-495px; }
-.popup .container { width:400px; position:relative; margin:0; }
+.popup { height:100.1%; overflow-y:scroll; }
+
+.popup .container { width:380px; position:relative; margin:0; top:0; left:0; }
 
 .main { width:950px; padding:0 20px; background:transparent url(images/background_body.jpg) repeat-y 0 0; }
-.popup .main { width:400px; }
+.popup .main { width:360px; padding:0 10px; }
 
 /* header */
 .header { background:transparent url(images/bg_menu_top.jpg) repeat-x 0 0; width:100%; height:70px; }
@@ -27,9 +29,11 @@ html { background-color:#fefaef; font-family:Helvetica; font-size:12px; color:#6
 .header .nav .workwithus a { background-position:-350px 0; width:139px; }
 .header .nav .contacts a { background-position:-489px 0; width:97px; }
 
+.popup .header, .popup aside, .popup .footer { display:none; }
+
 /* content */
 .section { clear:both; margin:152px 0 0 0; position:relative; border-bottom:1px solid #e0d9d1; background:transparent url(images/bg_colonna_sx_top.jpg) no-repeat 0 0; }
-.content { padding:30px 30px 30px 300px; text-align:justify; background:transparent url(images/bg_colonna_sx_center.jpg) repeat-y 0 0; }
+.content { padding:30px 30px 30px 300px; min-height:300px; text-align:justify; background:transparent url(images/bg_colonna_sx_center.jpg) repeat-y 0 0; }
 .section .clear { background:transparent url(images/bg_colonna_sx_bottom.jpg) no-repeat 0 bottom; height:5px; }
 .aside { position:absolute; left:0; top:0; width:200px; padding:30px 30px;  }
 
@@ -45,6 +49,7 @@ p { margin:10px 0; }
 
 .content .news .article { margin:0 0 20px 0; padding:0 0 10px 0; border-bottom:1px solid #CCC; }
 .content .news .article h4 { margin:0; }
+.content .news .article a{text-decoration:none;color:#666;}
 
 .aside h3 { position:relative; color:#6a6359; font-size:14px; padding:0 0 5px 0; font-weight:bold; margin:0 0 5px 0; background:transparent url(images/line_titlebotton_colonnasx.jpg) repeat-x 0 bottom; height:30px; }
 .aside h3 a { display:block; width:22px; height:22px; position:absolute; top:-3px; right:0; background:transparent url(images/it/bottoni.png) no-repeat 0 0; }
@@ -105,6 +110,11 @@ p { margin:10px 0; }
 .content form li.privacy input.error { border:0;  }
 .content form li.privacy label.error { clear:both; width:100%; padding:3px 10px 0 0;  }
 
+.popup .content { background:none; padding:20px; }
+.popup .section { margin:0; border:0; }
+
+.popup .clear, .popup h2, .popup .section, .popup .main { background:none; }
+
 /* footer */
 .footer { text-align:center; font-size:11px; margin:20px 0 0 0; color:#7d7d7b; }
 .footer .nav li { display:inline; border-right:1px solid #7d7d7b; padding:0 10px 0 5px; }
@@ -126,9 +136,33 @@ a.mail-text { color:#666; text-decoration:underline; }
 a.print { background-position:-351px -156px; padding:4px 0 2px 25px; }
 a.cv { background-position:-351px -137px; padding:4px 0 4px 25px; }
 
+a.link-back { float:right; color:#065F33; }
+
 p.add-margin { margin-bottom:300px; }
 
 div.google_map { width:200px; height:300px; border:1px solid #CCC; margin:50px 0 0 0; }
 
 h3.flash-message-ok { display:block; background-color:#D6FFE1; border:1px solid green; text-align:center; padding:10px 0; }
 h3.flash-message-ko { display:block; background-color:#FFE0D6; border:1px solid red; text-align:center; padding:10px 0; }
+
+
+
+
+/* intro */
+body.intro { margin:0 auto; width:950px; }
+body.intro .logo_ { background:url(images/logo_landing.png) no-repeat 0 0; width:338px; height:76px; top:275px; position:absolute; left:50%; margin-left:-169px; }
+body.intro .sentences{ text-align:center; width:502px; height:30px; line-height:30px; background:url(images/img_landing.png) no-repeat 0 0; padding:0; position:absolute; left:50%; margin-left:-251px; top:116px; overflow:hidden; }
+body.intro .langs { top:432px; width:328px; position:absolute; left:50%; margin-left:-164px; }
+body.intro .langs a{ margin:0 12px; float:left; display:block; text-indent:-10000px; width:140px; height:30px; }
+body.intro .langs .it { background:url(images/img_landing.png) no-repeat 0 -32px; }
+body.intro .langs .en { background:url(images/img_landing.png) no-repeat 0 -96px; }
+
+body.intro .langs .it:hover { background-position:0 -64px; }
+body.intro .langs .en:hover { background-position:0 -128px; }
+
+body.intro .company-details { width:950px; text-align:center; position:absolute; left:50%; margin-left:-475px; top:639px; border-top:1px solid #E0D9D1; padding-top:15px; }
+body.intro .footer .nav { display:none; }
+
+
+
+

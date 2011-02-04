@@ -10,7 +10,30 @@ $(function(){
   		workForm();
   		initializeGoogleMaps();
   		
+  		scroller();
+  		
+  		disabled()
+  		
   	});
+  	
+  	function disabled(){
+  		$("a.disabled").click(function(){return false;}).tipTip({defaultPosition: "top", delay:50}); 	
+  	}
+  	
+  	function scroller(){
+  		var s = $('ul#scroller');
+  		if(s && s.size() > 0){
+  			setInterval(removeFirst, 3000);	
+  		}
+  		
+		function removeFirst(){
+			$('ul#scroller li:first').animate({marginTop:'-=30'}, 700, function(){addLast(this);});
+		}
+				
+		function addLast(first){
+			$(first).remove().css({marginTop:'0'}).appendTo($('ul#scroller'));
+		}
+  	}
   	
   	function workForm(){
   		var c = $('#workwithus-form');

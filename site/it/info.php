@@ -29,16 +29,27 @@
 								<h2 class="first">Lo studio informa</h2>
 								<div class="news">
 									<?php include_once("../cms/inc/xmlFunc.php") ?>
-									<?php foreach (getNews(null,'../data/news.xml') as $news) { ?>
+									<?
+										$id = null;
+										if (isset($_GET['news_id']) && $_GET['news_id'] != null)
+											$id = $_GET['news_id'];
+											
+									?>
+									<?php foreach (getNews($id,'../data/news.xml') as $news) { ?>
 										<article>
 											<div class="article">
 												<h5><date><?php echo $news['date'] ?></date></h5>
-												<h4><?php echo $news['title'] ?></h4>
+												<a href="<?=$_SERVER['PHP_SELF']."?news_id=".$news['id']?>">
+													<h4><?php echo $news['title'] ?></h4>
+												</a>
+												<? if ($id != null) $PREVIEW_NEWS_MAX_LENGTH = 1000000; ?>													
 												<p>
-													<?php echo $news['description'] ?>
+													<?php echo (strlen($news['description']) > $PREVIEW_NEWS_MAX_LENGTH)?substr($news['description'],0,$PREVIEW_NEWS_MAX_LENGTH).' ...':$news['description'] ?>
 												</p>
+												
 											</div>
 										</article>
+										<? if ($id != null) {?><a class="link-back" href="<?=$_SERVER['PHP_SELF']?>">&laquo; Back</a><?} ?>
 									<?php } ?>
 								</div>
 							</div>

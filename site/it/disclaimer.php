@@ -9,10 +9,10 @@
 <html>
 	<?php include_once('../template/__head.php'); ?>
 	<!--[if IE ]>
-		<body class="<?php echo $LANGUAGE ?> ie popup">
+		<body class="<?php echo $LANGUAGE ?> ie <?php echo (isset($_GET['popup'])?"popup":"") ?>">
 	<![endif]-->
 	<!--[if !IE]>-->
-		<body class="<?php echo $LANGUAGE ?> popup">
+		<body class="<?php echo $LANGUAGE ?> <?php echo (isset($_GET['popup'])?"popup":"") ?>">
 	<!--<![endif]-->
 			<div class="container">
 				<div class="main">

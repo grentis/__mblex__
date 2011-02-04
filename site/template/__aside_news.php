@@ -5,7 +5,7 @@
 		<?php $tem_descr = strip_tags($news['description']); ?>
 		<article>
 			<div class="article first">
-				<h4><a href="info.php"><?php echo $news['title'] ?></a></h4>
+				<h4><a href="info.php?news_id=<?php echo $news['id'] ?>"><?php echo $news['title'] ?></a></h4>
 				<p><?php echo (strlen($tem_descr) > $PREVIEW_NEWS_MAX_LENGTH)?substr($tem_descr,0,$PREVIEW_NEWS_MAX_LENGTH).' ...':$tem_descr ?></p>
 			</div>
 		</article>

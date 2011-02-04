@@ -25,17 +25,23 @@
 			//$doc->validateOnParse = true;
 			//echo "entro\r\n";
 			$new = $doc->getElementById($id);
+
+			if ($new != null)
+			{
 			
-			$output [] = array(
+				$output [] = array(
 
-				'id' => $new->getAttributeNode('xml:id')->nodeValue,
+					'id' => $new->getAttributeNode('xml:id')->nodeValue,
 
-				'date' => $new->getElementsByTagName( "date" )->item(0)->nodeValue,
+					'date' => $new->getElementsByTagName( "date" )->item(0)->nodeValue,
 
-				'title' => htmlspecialchars_decode($new->getElementsByTagName( "title" )->item(0)->nodeValue),
+					'title' => htmlspecialchars_decode($new->getElementsByTagName( "title" )->item(0)->nodeValue),
 
-				'description' => $new->getElementsByTagName( "description" )->item(0)->nodeValue,
-				);
+					'description' => $new->getElementsByTagName( "description" )->item(0)->nodeValue,
+					);
+			}
+			else
+				$output [] = null;
 		}
 		else
 		{
