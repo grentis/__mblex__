@@ -1,4 +1,5 @@
 body{width:950px;margin:0 auto;font-family:Helvetica, 'san serif';font-size:12px; }
+a img { border:0; }
 div.rows {border-bottom:0 dotted #ddd;width:910px;margin:0 auto;}
 
 div.header {background: url(../img/header.jpg) no-repeat;height:100px;width:100%;}
