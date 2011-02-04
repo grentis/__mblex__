@@ -17,7 +17,9 @@ $(function(){
   	});
   	
   	function disabled(){
-  		$("a.disabled").click(function(){return false;}).tipTip({defaultPosition: "top", delay:50}); 	
+  		$("a.disabled").each(function(){
+  			$(this).click(function(){return false;}).tipTip({defaultPosition: "top", delay:50});
+  		});
   	}
   	
   	function scroller(){
