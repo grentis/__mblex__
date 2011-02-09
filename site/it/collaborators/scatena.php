@@ -40,19 +40,26 @@
 							<div class="content">
 								<h2 class="first">I Professionisti</h2>
 								<h4>Avv. Dario Scatena</h4>
+								<h5>Junior Associate</h5>
+								<p>
+									Dario Scatena ha maturato esperienza nel settore della consulenza in favore di intermediari finanziari in particolare di SGR avente ad oggetto prodotti finanziari ed assicurativi, polizze Unit Linked, fondi pensione, Oicr italiani ed esteri, fondi speculativi e gestioni individuali di portafoglio. Dario affianca altresì intermediari finanziari nella gestione “day by day” di rapporti con la sua clientela con particolare riferimento alle intervenute modifiche dello status del cliente nel corso del rapporto. Dario si occupa anche della gestione del relativo contenzioso, sia in ambito giudiziale che stragiudiziale.
+								</p>
 								<h6>Esperienze professionali e formazione</h6>
 								<p>
-									xxx
+									Dario ha ricoperto posizione di legal advisor nella Direzione Affari Legali di Azimut Consulenza Sim SpA e nell’ufficio affari legali di Pioneer Investments Management SgrpA dal febbraio 2008.<br/>
+									Dario ha, altresì, collaborato con le Prefetture in qualità di docente nella tenuta dei corsi sul decreto flussi 2007.<br/>
+									Dario ha contestualmente svolto l’attività di agente in attività finanziaria per conto di una banca primaria italiana. Dario ha frequentato master in materia finanziaria ed in peace keeping and peace bulding.
+									<ul>
+										<li>2010 Corso in materia di sicurezza dei lavoratori</li>
+										<li>2006 Master in finanza e mercati finanziari</li>
+										<li>2004 Laurea presso l’Università di Pisa in diritto</li>
+									</ul>
+									Dario è iscritto come praticante presso l’Ordine degli Avvocati di Milano.
  								</p>
-								<h6>Associazioni</h6>
-								<p>
-									xxx
-								</p>
 								<h6>Lingue</h6>
 								<p>
-									xxx
+									Italiano, Persiano(Farsi), Inglese e Francese
 								</p>
-								<p class="add-margin"></p>
 							</div>
 							<div class="clear"></div>
 						</div>

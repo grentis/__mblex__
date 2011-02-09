@@ -129,6 +129,10 @@
 													<input type="checkbox" name="html[]" value="Diritto societario e commerciale" id="dirsoccom"/>
 													<label for="dirsoccom">Diritto societario e commerciale</label>
 												</li>
+												 <li>
+													<input type="checkbox" name="html[]" value="Ristrutturazione del debito" id="risdeldeb"/>
+													<label for="risdeldeb">Ristrutturazione del debito</label>
+												</li>
 												<li>
 													<input type="checkbox" name="html[]" value="Diritto industriale e proprietà intellettuale – Diritto Penale commerciale e Diritto del lavoro" id="priequi"/>
 													<label for="priequi">Diritto industriale e proprietà intellettuale – Diritto Penale commerciale e Diritto del lavoro</label>
@@ -136,7 +140,7 @@
 												<li>
 													<input type="checkbox" name="html[]" value="Soluzione delle controversie" id="solcon"/>
 													<label for="solcon">Soluzione delle controversie</label>
-												</li>												
+												</li>											
 											</ul>
 										</li>
 										<li class="field mandatory">

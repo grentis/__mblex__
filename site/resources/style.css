@@ -145,13 +145,17 @@ div.google_map { width:200px; height:300px; border:1px solid #CCC; margin:50px 0
 h3.flash-message-ok { display:block; background-color:#D6FFE1; border:1px solid green; text-align:center; padding:10px 0; }
 h3.flash-message-ko { display:block; background-color:#FFE0D6; border:1px solid red; text-align:center; padding:10px 0; }
 
+li.bienati { padding-top:20px; }
+
 
 
 
 /* intro */
 body.intro { margin:0 auto; width:950px; }
 body.intro .logo_ { background:url(images/logo_landing.png) no-repeat 0 0; width:338px; height:76px; top:275px; position:absolute; left:50%; margin-left:-169px; }
-body.intro .sentences{ text-align:center; width:502px; height:30px; line-height:30px; background:url(images/img_landing.png) no-repeat 0 0; padding:0; position:absolute; left:50%; margin-left:-251px; top:116px; overflow:hidden; }
+body.intro .sentences-box { width:502px; position:absolute; left:50%; margin-left:-251px; top:116px; overflow:hidden; }
+body.intro .sentences { text-align:center; width:10000px; height:30px; line-height:30px; background:url(images/img_landing.png) no-repeat 0 0; padding:0; }
+body.intro .sentences li { float:left; width:502px; display:inline; text-align:center; }
 body.intro .langs { top:432px; width:328px; position:absolute; left:50%; margin-left:-164px; }
 body.intro .langs a{ margin:0 12px; float:left; display:block; text-indent:-10000px; width:140px; height:30px; }
 body.intro .langs .it { background:url(images/img_landing.png) no-repeat 0 -32px; }

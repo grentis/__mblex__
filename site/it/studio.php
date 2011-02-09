@@ -25,10 +25,11 @@
 										<h3 class="first last">I professionisti</h3>
 										<ul>
 											<li><a href="collaborators/bicecci.php">Avv. Stefania Bicecci &raquo;</a></li>
-											<li><a href="collaborators/gangitano.php">Avv. Luca Gancitano &raquo;</a></li>
-											<li><a href="collaborators/scatena.php">Avv. Dario Scatena &raquo;</a></li>
-											<li><a href="collaborators/bienati.php">Avv. Giuseppe Bienati &raquo;</a></li>
-										</ul>
+											<li><a href="collaborators/gancitano.php">Avv. Luca Gancitano &raquo;</a></li>
+											<li><a href="collaborators/scatena.php">Dott. Dario Scatena &raquo;</a></li>
+                                            <li><a href="collaborators/pelivani.php">Dott.ssa Edlira Pelivani &raquo;</a></li>
+                                        	<li class="bienati"><a href="collaborators/bienati.php">Avv. Giuseppe Bienati &raquo;</a></li>
+                                        </ul>
 									</div>
 									<a class="l-contactus-small" href="contacts.php">Contattaci ora</a>
 								</div>
@@ -36,7 +37,7 @@
 							<div class="content">
 								<h2 class="first">Lo Studio</h2>
 								<p>
-									Lo Studio Legale Bicecci & Partners fonde la ventennale esperienza professionale e le specifiche competenze di ciascun partner in diritto bancario, finanziario e societario, in ambito giudiziale e stragiudiziale.
+									Lo Studio Legale Bicecci & Partners fonde la ventennale esperienza professionale e le specifiche competenze di ciascun partner in diritto bancario, finanziario, societario e civile in ambito giudiziale e stragiudiziale.
 								</p>
 								<p>
 									Elevato grado di specializzazione, capacità di gestire problematiche complesse e forte motivazione sono i punti di forza che consentono ai professionisti dello Studio Legale Bicecci & Partners di affiancare i loro clienti come un partner concreto, tempestivo ed efficiente.
@@ -54,9 +55,10 @@
 								<ul class="l-collaborators-list">
 									<li><a href="collaborators/bicecci.php">Avv. Stefania Bicecci &raquo;</a></li>
 									<li><a href="collaborators/gancitano.php">Avv. Luca Gancitano &raquo;</a></li>
-									<li><a href="collaborators/scatena.php">Avv. Dario Scatena &raquo;</a></li>
-									<li><a href="collaborators/bienati.php">Avv. Giuseppe Bienati &raquo;</a></li>
-								</ul>
+									<li><a href="collaborators/scatena.php">Dott. Dario Scatena &raquo;</a></li>
+									<li><a href="collaborators/pelivani.php">Dott.ssa Edlira Pelivani &raquo;</a></li>
+								    <li class="bienati"><a href="collaborators/bienati.php">Avv. Giuseppe Bienati &raquo;</a></li>
+                                </ul>
 							</div>
 							<div class="clear"></div>
 						</div>

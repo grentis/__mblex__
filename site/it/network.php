@@ -36,22 +36,19 @@
 								</p>
 								<h4>Recupero internazionale dei crediti</h4>
 								<p>
-									Grazie ad una ventennale esperienza, la società con la quale lo Studio Legale Bicecci & Partners ha un accordo di collaborazione, è in grado di gestire, a costi contenuti, commisurati al recuperato, l'attività di analisi del debitore e di individuazione della più rapida ed efficace strategia di recupero, nonché di fornire schede informative e di valutazione sul merito creditizio di singole controparti di mercato.
+									Lo Studio Legale Bicecci & Partners ha sviluppato, da diversi anni, una partnership con INVENIUM, organizzazione specializzata nel recupero crediti esteri in ambito stragiudiziale e giudiziale. Nata alla fine degli anni '90, è oggi parte di uno dei maggiori network internazionali. La partnership rappresenta oggi un importante punto di riferimento per molte PMI connotate da una forte vocazione internazionale e per le quali l’assistenza ed il supporto per la gestione ed il recupero crediti esteri rappresenta una necessità primaria.<br/>
+									Invenium si avvale di una rete di 90 Studi uffici localizzati in altrettanti paesi del Mondo.
 								</p>
 								<h4>Consulenza nell'attività di Rating e valutazione merito creditizio e analisi centrale dei Rischi</h4>
 								<p>
-									Lo Studio Legale Bicecci & Partners offre anche un servizio di consulenza a supporto sia del management e della proprietà di piccole e medie imprese italiane che non dispongono di una direzione finanziaria particolarmente sviluppata, per fornire supporto e consulenza altamente specialistica nel settore del Rating secondo gli indici di Basilea 2 e di valutazione al merito creditizio.
-								</p>
-								<h4>Consulenza nell'attività di Rating e valutazione merito creditizio e analisi centrale dei Rischi</h4>
-								<p>
-									Lo Studio Legale Bicecci & Partners offre anche un servizio di consulenza a supporto sia del management e della proprietà di piccole e medie imprese italiane che non dispongono di una direzione finanziaria particolarmente sviluppata, per fornire supporto e consulenza altamente specialistica nel settore del Rating secondo gli indici di Basilea 2 e di valutazione al merito creditizio.
+									Lo Studio Legale Bicecci & Partners offre anche un servizio di consulenza a supporto sia del management e della proprietà di piccole e medie imprese italiane che non dispongono di una direzione finanziaria particolarmente sviluppata, per fornire supporto e consulenza altamente specialistica nel settore del Rating secondo gli indici di Basilea 2 e 3 e di valutazione al merito creditizio.
 								</p>
 								<p>
 									Attraverso la corretta interpretazione dei dati forniti dalla Centrale dei Rischi, e l'analisi andamentale si forniscono ipotesi d'intervento per consentire la corretta e sana gestione delle esposizioni verso il sistema creditizio. Strumento indispensabile non solo per pianificare le richieste di finanziamento e di affidamento e per realizzare una duration finanziaria compatibile con le esigenze attuali e future dell'azienda, ma anche per indicare il miglior utilizzo e sfruttamento possibile degli affidamenti concessi.
 								</p>
 								<h4>Consulenza specialistica in materia di derivati finanziari (futures, forwards, options e swap)</h4>
 								<p>
-									Lo Studio Legale Bicecci & Partners fornisce - in collaborazione e sotto la supervisione di un team di esperti facenti capo a Docenti Universitari in materie finanziarie – consulenza ed assistenza in materia di contratti derivati finanziari (quali ad esempio gli IRS – Interest Rate Swap – e i c.d. Plan Vanilla) contratti più frequentemente sottoscritti dagli investitori) e, più in generale, nel campo degli investimenti in qualsiasi strumento finanziario.
+									Lo Studio Legale Bicecci & Partners offre - in collaborazione e sotto la supervisione di un team di esperti facenti capo a Docenti Universitari in materie finanziarie – consulenza ed assistenza in materia di contratti derivati finanziari quali ad esempio gli IRS – Interest Rate Swap – e i c.d. Plan Vanilla contratti più frequentemente sottoscritti dagli investitori) e, più in generale, nel campo degli investimenti in qualsiasi strumento finanziario.
 								</p>
 							</div>
 							<div class="clear"></div>

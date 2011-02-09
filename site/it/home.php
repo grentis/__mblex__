@@ -35,10 +35,10 @@
 								</p>
 								<h2>Visione e missione</h2>
 								<p>
-									Un amico serio e riservato al fianco del cliente. Lo studio legale Bicecci&Partners si propone come una realtà di riconosciuta esperienza, rinomata per competenza, serietà e disponibilità dei professionisti.
+									Lo studio legale Bicecci & Partners si propone come una realtà di riconosciuta esperienza, rinomata per competenza, serietà e disponibilità dei professionisti.
 								</p>
 								<p>
-									Grazie alla struttura moderna, dinamica e veloce ed alle sinergie professionali e personali, i professionisti dello Studio Legale Bicecci&Partners sono in grado di accogliere e curare le molteplici richieste di banche, società finanziarie, SIM, SGR, società quotate e non e piccole e medie imprese
+									Grazie alla struttura moderna, dinamica e veloce ed alle sinergie professionali e personali, i professionisti dello Studio Legale Bicecci & Partners sono in grado di accogliere e curare le molteplici richieste di banche, società finanziarie,  società quotate e non e piccole e medie imprese
 								</p>
 								<a href="contacts.php" class="l-contactus-big">Contattaci ora</a>
 							</div>

@@ -25,12 +25,14 @@
 	<!--[if !IE]>-->
 		<body class="intro it">
 	<!--<![endif]-->
-				<ul class="sentences" id="scroller">
-				  	<li>Attenzione... ai singoli dettagli</li>
-					<li>Indipendenza, dinamicità e flessibilità</li>
-					<li>Adattabilità  alle esigenze del cliente</li>
-					<li>Orientamento agli obiettivi</li>
-				</ul>
+				<div class="sentences-box">
+					<ul class="sentences" id="scroller">
+					  	<li>Attenzione... ai singoli dettagli</li>
+						<li>Indipendenza, dinamicità e flessibilità</li>
+						<li>Adattabilità  alle esigenze del cliente</li>
+						<li>Orientamento agli obiettivi</li>
+					</ul>
+				</div>
 				<div class="logo_"></div>
 				
 				<div class="langs">

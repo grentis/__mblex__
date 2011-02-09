@@ -29,11 +29,11 @@ $(function(){
   		}
   		
 		function removeFirst(){
-			$('ul#scroller li:first').animate({marginTop:'-=30'}, 700, function(){addLast(this);});
+			$('ul#scroller li:first').animate({marginLeft:'-=502'}, 3000, function(){addLast(this);});
 		}
 				
 		function addLast(first){
-			$(first).remove().css({marginTop:'0'}).appendTo($('ul#scroller'));
+			$(first).remove().css({marginLeft:'0'}).appendTo($('ul#scroller'));
 		}
   	}
   	
