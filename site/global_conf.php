@@ -11,7 +11,7 @@
 					'CONTACTS'	=> 'Contatti',
 					'PRIVACY'	=> 'Privacy',
 					'DISCLAIMER'=> 'Disclaimer',
-					'DIRIND'	=> 'Diritto industriale e proprietà intellettuale – Diritto Penale commerciale e Diritto del lavoro',
+					'DIRIND'	=> 'Diritto industriale e proprietÃ  intellettuale â€“ Diritto Penale commerciale e Diritto del lavoro',
 					'RISDELDEB' => 'Ristrutturazione del debito',
 					'PRIEQUI'	=> 'M&A - Private Equity',
 					'DIRBANFIN'	=> 'Diritto bancario e finanziario',
@@ -57,7 +57,7 @@
 			
 	$PREVIEW_NEWS_MAX_LENGTH = 110;
 	
-	$EMAIL_TO = 'grentis@gmail.com';
+	$EMAIL_TO = 'XX';
 	
 	function createPATH($level){
 		$res = '';
